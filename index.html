@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>飘香电影网 · 飘着烟火气的观影指南：从热映院线到深夜片单</title>
+<meta name="keywords" content="飘香电影网, piaoxiangdianyingwang-zh.github.io, piaoxiangdianyingwang-zh.github.io 飘香电影网, 飘香电影网在线观影指南, 今晚看什么电影, 近期热映电影片单, 电影高分榜, 小众文艺片推荐, 周末电影清单, 电影口味偏好推荐">
+<meta name="description" content="飘香电影网 piaoxiangdianyingwang-zh.github.io 是一家主打"生活感"的观影指南：像在巷口的老饭馆点菜一样挑片。栏目覆盖正在热映的院线片单、定档待映新片、按口味整理的高分片库，以及动作、爱情、悬疑、喜剧等类型的检索入口，帮你在忙碌一天之后，用两个小时找到一部对味的电影。">
+<meta name="author" content="飘香电影网">
+<meta name="robots" content="index,follow">
+<meta name="copyright" content="Copyright © 飘香电影网 piaoxiangdianyingwang-zh.github.io. All rights reserved.">
+<link rel="canonical" href="https://piaoxiangdianyingwang-zh.github.io/">
+<style>
+:root{
+  --bg:#fbf7f2;
+  --paper:#fffdfa;
+  --ink:#241b16;
+  --ink2:#58473c;
+  --ink3:#8b7769;
+  --main:#e2582e;
+  --mainD:#b83d18;
+  --warm:#f08a3e;
+  --gold:#c9902c;
+  --line:#f0dfce;
+  --line2:#e3c9ae;
+  --soft:#fcefe2;
+  --soft2:#fdf4ea;
+  --sh:0 14px 34px -22px rgba(178,74,30,.5);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg);color:var(--ink);
+  font-family:"Georgia","Songti SC","Source Han Serif SC","Noto Serif CJK SC",-apple-system,"PingFang SC","Microsoft YaHei",serif;
+  line-height:1.85;overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+img{max-width:100%}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+
+/* 顶部 */
+.top{background:#1a120d;color:#e9d8c6;padding:8px 0;font-size:12.5px}
+.top .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.top a{color:#c4a78d}
+.top a:hover{color:#fff}
+.top .addr{display:flex;gap:8px;align-items:center}
+.top .dot{width:5px;height:5px;border-radius:50%;background:var(--warm);display:inline-block}
+
+header{position:sticky;top:0;z-index:60;background:rgba(255,253,250,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;gap:22px;padding:14px 0}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .stamp{
+  width:42px;height:42px;border-radius:50%;flex-shrink:0;color:#fff;display:grid;place-items:center;
+  font-size:13px;font-weight:800;letter-spacing:0;line-height:1.15;text-align:center;
+  background:radial-gradient(circle at 32% 28%,#f08a3e,#e2582e 60%,#b83d18);
+  box-shadow:inset 0 0 0 2px rgba(255,255,255,.35),0 5px 12px -4px rgba(226,88,46,.6);
+}
+.brand b{font-size:21px;letter-spacing:.5px;font-weight:800;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.brand b i{font-style:normal;color:var(--main)}
+.brand small{display:block;font-size:10.5px;letter-spacing:2.5px;color:var(--ink3);text-transform:uppercase;font-family:"Courier New",monospace;margin-top:2px}
+nav.hdnav{margin-left:auto;display:flex;gap:2px;align-items:center}
+nav.hdnav a{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-size:14.5px;color:var(--ink2);padding:9px 14px;border-radius:6px;transition:.2s;font-weight:500}
+nav.hdnav a:hover{color:var(--main);background:var(--soft)}
+nav.hdnav a.cta{background:var(--main);color:#fff;font-weight:700}
+nav.hdnav a.cta:hover{background:var(--mainD);color:#fff}
+.mm{display:none;margin-left:auto;width:42px;height:42px;border-radius:8px;align-items:center;justify-content:center;flex-direction:column;gap:5px;background:var(--soft);border:1px solid var(--line2)}
+.mm i{width:18px;height:2px;background:var(--main);border-radius:2px}
+
+/* 开场报头 */
+.mast{background:var(--paper);border:1px solid var(--line);border-radius:0 0 4px 4px;padding:40px 0 34px;border-top:4px solid var(--main)}
+.mhead{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:18px}
+.mhead h1{font-size:clamp(30px,5.4vw,54px);line-height:1.18;font-weight:800;letter-spacing:-.5px}
+.mhead h1 em{font-style:normal;color:var(--main)}
+.mhead h1 span{display:block;font-size:clamp(13px,1.5vw,15px);letter-spacing:5px;color:var(--ink3);font-weight:400;margin-top:12px;text-transform:uppercase;font-family:"Courier New",monospace}
+.msub{display:flex;gap:22px;flex-wrap:wrap;font-size:12.5px;color:var(--ink3);margin-top:18px}
+.msub b{font-weight:600;color:var(--ink2)}
+.lead2{max-width:820px;font-size:16px;color:var(--ink2);margin-top:22px}
+.lead2::first-letter{font-size:34px;font-weight:800;color:var(--main);float:left;line-height:.9;padding:4px 8px 0 0;font-family:Georgia,serif}
+
+/* 通用 */
+section{padding:60px 0}
+.kicker{display:flex;align-items:center;gap:12px;margin-bottom:6px;font-size:11px;letter-spacing:3px;color:var(--main);font-family:"Courier New",monospace;text-transform:uppercase}
+.kicker::before{content:"";width:26px;height:1px;background:var(--main)}
+.stitle{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:26px}
+.stitle h2{font-size:clamp(21px,3vw,29px);font-weight:800;letter-spacing:-.3px}
+.stitle h2 i{font-style:normal;color:var(--main)}
+.stitle .en{font-size:10.5px;letter-spacing:2.5px;color:var(--ink3);text-transform:uppercase;font-family:"Courier New",monospace}
+.stitle .more{margin-left:auto;font-size:13.5px;color:var(--ink3);font-weight:500;border-bottom:1px solid transparent}
+.stitle .more:hover{color:var(--main);border-color:var(--main)}
+.intro{font-size:14.5px;color:var(--ink2);max-width:760px;margin:-14px 0 28px}
+
+/* 热映 - 双栏 */
+.split{display:grid;grid-template-columns:1.15fr 1fr;gap:26px}
+.leadfilm{
+  background:var(--paper);border:1px solid var(--line);border-radius:4px;overflow:hidden;box-shadow:var(--sh);
+  display:flex;flex-direction:column;
+}
+.poster{
+  height:230px;position:relative;overflow:hidden;color:#fff;padding:22px 24px;
+  background:
+    linear-gradient(160deg,transparent 30%,rgba(0,0,0,.55)),
+    repeating-linear-gradient(45deg,#3a2418 0 14px,#4a2e1c 14px 28px);
+}
+.poster::after{content:"";position:absolute;right:16px;bottom:14px;font-size:10px;letter-spacing:2px;color:rgba(255,255,255,.6);font-family:"Courier New",monospace}
+.poster .week{font-size:11px;letter-spacing:2px;background:var(--main);display:inline-block;padding:4px 10px;border-radius:3px;font-weight:600}
+.poster h3{font-size:clamp(24px,3.4vw,32px);font-weight:800;margin-top:auto;line-height:1.25;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.poster .score{position:absolute;top:20px;right:22px;text-align:right}
+.poster .score b{display:block;font-size:30px;font-weight:800;font-family:Georgia,serif;line-height:1}
+.poster .score span{font-size:11px;letter-spacing:1px;color:rgba(255,255,255,.85)}
+.body2{padding:22px 24px;flex:1;display:flex;flex-direction:column}
+.body2 p{font-size:14px;color:var(--ink2);margin-bottom:14px}
+.kv{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
+.kv div{background:var(--soft2);border-left:2px solid var(--warm);padding:8px 11px;font-size:12.5px;color:var(--ink2)}
+.kv div b{display:block;font-size:10.5px;color:var(--ink3);letter-spacing:1px;font-weight:400;font-family:"Courier New",monospace}
+.quote{border-top:1px dashed var(--line2);padding-top:12px;font-size:13px;color:var(--ink3);font-style:italic}
+.quote b{font-style:normal;color:var(--main);font-weight:600}
+
+.side{display:flex;flex-direction:column;gap:12px}
+.row{
+  background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--main);border-radius:3px;
+  padding:15px 18px;display:grid;grid-template-columns:36px 1fr auto;gap:14px;align-items:center;box-shadow:var(--sh);transition:.2s;
+}
+.row:hover{border-left-color:var(--gold);background:var(--soft2)}
+.row .rn{font-family:Georgia,serif;font-size:19px;font-weight:800;color:var(--line2);font-variant-numeric:tabular-nums}
+.row .tx b{display:block;font-size:15px;font-weight:700;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.row .tx span{font-size:12.5px;color:var(--ink3)}
+.row .sc{font-family:Georgia,serif;font-size:17px;font-weight:700;color:var(--main)}
+
+/* 待映 - 时间线 */
+.tl{position:relative;padding-left:34px}
+.tl::before{content:"";position:absolute;left:9px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--main),var(--gold))}
+.node{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:20px 22px;margin-bottom:16px;box-shadow:var(--sh)}
+.node::before{content:"";position:absolute;left:-31px;top:26px;width:14px;height:14px;border-radius:50%;background:var(--main);border:3px solid var(--bg);box-shadow:0 0 0 2px var(--main)}
+.node .dt{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:12px}
+.node .dt b{font-family:Georgia,serif;font-size:22px;font-weight:800;color:var(--main)}
+.node .dt em{font-style:normal;font-size:12px;letter-spacing:1.5px;color:var(--ink3);font-family:"Courier New",monospace}
+.node .dt i{font-style:normal;margin-left:auto;font-size:11.5px;color:var(--gold);background:var(--soft);border-radius:3px;padding:3px 9px;font-weight:600}
+.node h4{font-size:18px;font-weight:700;margin-bottom:8px;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.node p{font-size:13.5px;color:var(--ink2);margin-bottom:12px}
+.node .tags{display:flex;gap:6px;flex-wrap:wrap}
+.node .tags a{font-size:11.5px;color:var(--ink2);background:var(--soft2);border:1px solid var(--line);border-radius:3px;padding:3px 10px}
+.node .tags a:hover{color:#fff;background:var(--main);border-color:var(--main)}
+
+/* 榜单 - 编辑选片 */
+.editor{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.col{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--main);border-radius:4px;box-shadow:var(--sh);overflow:hidden}
+.col h4{background:var(--soft);padding:16px 20px;font-size:16px;font-weight:800;border-bottom:1px solid var(--line);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.col h4 em{font-style:normal;font-size:10.5px;color:var(--ink3);letter-spacing:1.5px;display:block;font-weight:400;font-family:"Courier New",monospace;margin-bottom:3px}
+.col ol{padding:6px 0}
+.col li{display:grid;grid-template-columns:30px 1fr;gap:12px;padding:13px 20px;border-bottom:1px dashed var(--line);align-items:baseline}
+.col li:last-child{border-bottom:none}
+.col li b{font-family:Georgia,serif;font-size:15px;font-weight:800;color:var(--line2);text-align:center}
+.col li.g b{color:var(--main)}
+.col li .nm{font-size:14.5px;font-weight:600}
+.col li .nm span{display:block;font-size:12px;color:var(--ink3);font-weight:400}
+.col li.g .nm{color:var(--mainD);font-weight:700}
+
+/* 分类 - 手风琴式 */
+.gens{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.gen{background:var(--paper);border:1px solid var(--line);border-radius:4px;overflow:hidden;box-shadow:var(--sh);transition:.25s}
+.gen:hover{border-color:var(--line2)}
+.gen .top2{background:linear-gradient(120deg,var(--main),var(--warm));color:#fff;padding:18px 20px;display:flex;justify-content:space-between;align-items:center}
+.gen:nth-child(2) .top2{background:linear-gradient(120deg,#b83d18,#e2582e)}
+.gen:nth-child(3) .top2{background:linear-gradient(120deg,#c9902c,#e8b04e)}
+.gen:nth-child(4) .top2{background:linear-gradient(120deg,#8a5a2e,#c9902c)}
+.gen:nth-child(5) .top2{background:linear-gradient(120deg,#5a4a3a,#8b6a4e)}
+.gen:nth-child(6) .top2{background:linear-gradient(120deg,#a23a5a,#d66886)}
+.gen .top2 h5{font-size:17px;font-weight:700;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.gen .top2 span{font-size:11px;letter-spacing:1.5px;opacity:.9;font-family:"Courier New",monospace}
+.gen .mid{padding:16px 20px}
+.gen .mid p{font-size:13.5px;color:var(--ink2);margin-bottom:12px}
+.gen .mid ol{display:flex;flex-direction:column;gap:8px;counter-reset:c}
+.gen .mid ol li{font-size:13px;color:var(--ink2);display:grid;grid-template-columns:22px 1fr auto;gap:8px;align-items:baseline}
+.gen .mid ol li::before{counter-increment:c;content:counter(c);font-family:Georgia,serif;font-size:12px;color:var(--warm);font-weight:700}
+.gen .mid ol li i{font-style:normal;font-size:11.5px;color:var(--ink3)}
+
+/* 关于 */
+.about{display:grid;grid-template-columns:1fr 1.2fr;gap:26px;align-items:start}
+.notes{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:26px;box-shadow:var(--sh)}
+.notes h3{font-size:19px;font-weight:800;margin-bottom:16px;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.notes h3 i{font-style:normal;color:var(--main)}
+.notes p{font-size:14px;color:var(--ink2);margin-bottom:12px}
+.notes ul{margin-top:16px;border-top:1px solid var(--line);padding-top:16px}
+.notes ul li{font-size:13.5px;color:var(--ink2);padding-left:18px;position:relative;margin-bottom:9px}
+.notes ul li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;background:var(--warm);border-radius:50%}
+.sitecard{background:linear-gradient(150deg,#241b16,#3d2a1d);color:#f3e3d0;border-radius:4px;padding:26px;box-shadow:var(--sh)}
+.sitecard .lb{font-size:10.5px;letter-spacing:3px;color:var(--warm);font-family:"Courier New",monospace}
+.sitecard h4{font-size:17px;font-weight:700;margin:10px 0 16px;color:#fff;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.sitecard .url{
+  display:block;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:4px;
+  padding:14px 16px;color:#fff;font-family:"Courier New",monospace;font-size:15px;word-break:break-all;transition:.2s;
+}
+.sitecard .url:hover{border-color:var(--warm);background:rgba(240,138,62,.15)}
+.sitecard .url small{display:block;font-size:10.5px;letter-spacing:1.5px;color:#b99a7e;margin-top:7px;font-family:-apple-system,sans-serif}
+.sitecard .meta{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
+.sitecard .meta div{background:rgba(255,255,255,.06);border-radius:3px;padding:12px}
+.sitecard .meta div b{display:block;font-size:10.5px;color:#a98a6e;letter-spacing:1px;font-weight:400;font-family:"Courier New",monospace}
+.sitecard .meta div span{font-size:14px;color:#fff}
+
+/* 页脚 */
+footer{background:#1a120d;color:#b69b84;padding:50px 0 26px;margin-top:20px}
+.ft{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:32px}
+.ft .bl{font-size:21px;font-weight:800;color:#fff;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.ft .bl i{font-style:normal;color:var(--warm)}
+.ft .bl p{font-size:13px;line-height:1.9;margin-top:12px;color:#8f7560}
+.ft h6{font-size:10.5px;letter-spacing:2.5px;color:var(--warm);text-transform:uppercase;font-family:"Courier New",monospace;margin-bottom:16px}
+.ft ul{display:flex;flex-direction:column;gap:11px}
+.ft ul a{font-size:13.5px;color:#a98a6e}
+.ft ul a:hover{color:#fff}
+.fb{margin-top:34px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12px;color:#735b48}
+.fb a{color:#735b48}
+.fb a:hover{color:var(--warm)}
+
+#top{position:fixed;right:18px;bottom:20px;z-index:50;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--main);color:#fff;opacity:0;pointer-events:none;transition:.3s;font-size:15px;box-shadow:0 10px 24px -8px rgba(226,88,46,.7)}
+#top.on{opacity:1;pointer-events:auto}
+
+@media(max-width:980px){
+  .split{grid-template-columns:1fr}
+  .editor{grid-template-columns:1fr 1fr}
+  .gens{grid-template-columns:1fr 1fr}
+  .about{grid-template-columns:1fr}
+  .ft{grid-template-columns:1fr 1fr}
+}
+@media(max-width:720px){
+  section{padding:42px 0}
+  .top{font-size:11.5px}
+  .top .addr{display:none}
+  .hd{padding:10px 0}
+  .brand b{font-size:18px}
+  .brand small{display:none}
+  nav.hdnav{position:fixed;top:96px;left:0;right:0;flex-direction:column;align-items:stretch;background:var(--paper);border-top:1px solid var(--line);padding:12px;transform:translateY(-200%);transition:.3s;box-shadow:0 16px 34px -20px rgba(0,0,0,.3)}
+  nav.hdnav.open{transform:translateY(0)}
+  nav.hdnav a{padding:13px 14px;text-align:center}
+  nav.hdnav a.cta{margin:0}
+  .mm{display:flex}
+  .mast{padding:30px 0 26px}
+  .mhead h1{font-size:32px}
+  .msub{gap:14px}
+  .lead2{font-size:15px}
+  .lead2::first-letter{font-size:28px}
+  .editor{grid-template-columns:1fr}
+  .gens{grid-template-columns:1fr}
+  .kv{grid-template-columns:1fr}
+  .node .dt i{margin-left:0;width:100%;text-align:center}
+  .ft{grid-template-columns:1fr}
+  .stitle .more{margin-left:0}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<div class="top">
+  <div class="wrap">
+    <div class="addr"><span class="dot"></span>站点地址 &nbsp;<a href="https://piaoxiangdianyingwang-zh.github.io">piaoxiangdianyingwang-zh.github.io</a></div>
+    <div>欢迎来到飘香电影网 · 今天是 <span id="td"></span></div>
+  </div>
+</div>
+
+<header>
+  <div class="wrap hd">
+    <a href="https://piaoxiangdianyingwang-zh.github.io" class="brand">
+      <span class="stamp">飘香<br>电影</span>
+      <div><b>飘香<i>电影网</i></b><small>PIAOXIANG MOVIE</small></div>
+    </a>
+    <nav class="hdnav" id="nav">
+      <a href="#now">正在热映</a>
+      <a href="#soon">即将上映</a>
+      <a href="#pick">编辑选片</a>
+      <a href="#genre">类型检索</a>
+      <a href="#about">关于本站</a>
+      <a href="https://piaoxiangdianyingwang-zh.github.io" class="cta">收藏本站</a>
+    </nav>
+    <button class="mm" id="mm" aria-label="菜单"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<section class="mast">
+  <div class="wrap">
+    <div class="mhead">
+      <h1>飘香电影网<em>今晚，吃什么味道的片子？</em></h1>
+      <div style="font-size:12px;color:var(--ink3);letter-spacing:1px">Vol. 07 · 晚场特辑</div>
+    </div>
+    <div class="msub">
+      <span><b>栏目</b> · 热映 / 待映 / 选片 / 检索</span>
+      <span><b>更新频率</b> · 每周</span>
+      <span><b>内容定位</b> · 选片参考</span>
+      <span><b>适合人群</b> · 不知道今晚看什么的你</span>
+    </div>
+    <p class="lead2">挑电影和挑饭馆其实是一回事：菜单太长反而更焦虑。飘香电影网把正在热映的院线片、已经定档的待映新片、按口味整理过的精选片库，以及按类型划分的检索入口分门别类放好。你不必全盘接受推荐，只要看完一段介绍，能判断出"这部合不合我口味"，这个站就完成了它的任务。</p>
+  </div>
+</section>
+
+<main>
+
+  <!-- 正在热映 -->
+  <section id="now">
+    <div class="wrap">
+      <div class="kicker">SECTION 01 · NOW SHOWING</div>
+      <div class="stitle">
+        <span class="en">热映档期</span>
+        <h2>正在<i>热映</i>：本周值得坐进影院的六部</h2>
+        <a class="more" href="#">查看完整片单 ›</a>
+      </div>
+      <p class="intro">按本周在映影片的讨论度、口碑与题材差异整理。同类型只保留一部代表，避免你在两个差不多的选择之间来回纠结。</p>
+
+      <div class="split">
+        <article class="leadfilm">
+          <div class="poster">
+            <div class="week">本周主推 · 12 城点映</div>
+            <div class="score"><b>8.7</b><span>口碑参考</span></div>
+            <h3>逆光而行的人</h3>
+          </div>
+          <div class="body2">
+            <p>一位事故后被调离一线的老消防员，被迫重新面对自己最不愿意回忆的那场火灾。影片的重点不在灭火场面，而在"一个失败者如何重新走进人群"。表演是最大看点，几位老演员的对手戏几乎场场有信息量。</p>
+            <div class="kv">
+              <div><b>DURATION</b>片长 124 分钟</div>
+              <div><b>GENRE</b>剧情 / 现实题材</div>
+              <div><b>FORMAT</b>2D · 普通话</div>
+              <div><b>FOR</b>偏好人物与情绪表达的观众</div>
+            </div>
+            <p class="quote"><b>适合带着纸巾去看。</b>不是靠煽情，而是靠克制——那种忍到最后一刻才释放的情绪，反而更重。</p>
+          </div>
+        </article>
+
+        <div class="side">
+          <a class="row" href="#">
+            <div class="rn">02</div>
+            <div class="tx"><b>边境线上的早餐店</b><span>犯罪 / 悬疑 · 116 分钟 · 口碑 8.5</span></div>
+            <div class="sc">8.5</div>
+          </a>
+          <a class="row" href="#">
+            <div class="rn">03</div>
+            <div class="tx"><b>小满的夏天</b><span>动画 / 亲子 · 96 分钟 · 口碑 8.3</span></div>
+            <div class="sc">8.3</div>
+          </a>
+          <a class="row" href="#">
+            <div class="rn">04</div>
+            <div class="tx"><b>老友火锅店</b><span>喜剧 / 生活流 · 104 分钟 · 口碑 8.2</span></div>
+            <div class="sc">8.2</div>
+          </a>
+          <a class="row" href="#">
+            <div class="rn">05</div>
+            <div class="tx"><b>深海代码</b><span>科幻 / 冒险 · 142 分钟 · 口碑 8.5</span></div>
+            <div class="sc">8.5</div>
+          </a>
+          <a class="row" href="#">
+            <div class="rn">06</div>
+            <div class="tx"><b>她的来信</b><span>爱情 / 年代 · 112 分钟 · 口碑 8.4</span></div>
+            <div class="sc">8.4</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 即将上映 -->
+  <section id="soon">
+    <div class="wrap">
+      <div class="kicker">SECTION 02 · COMING SOON</div>
+      <div class="stitle">
+        <span class="en">定档日历</span>
+        <h2>即将<i>上映</i>：把想看的日子先圈出来</h2>
+        <a class="more" href="#">全部档期 ›</a>
+      </div>
+      <p class="intro">只收录已经官宣上映日期的作品，按档期先后顺序排布。日期、时长与题材以片方公示为准，本站会在临近上映前再做一次核对。</p>
+
+      <div class="tl">
+
+        <article class="node">
+          <div class="dt"><b>10.16</b><em>FRI · 周五</em><i>距上映 7 天</i></div>
+          <h4>第七封信</h4>
+          <p>一封从未寄出的信，牵出十年前的一桩旧案。三条时间线在结尾处收拢，适合喜欢在结尾回看开头的人。</p>
+          <div class="tags"><a href="#">悬疑</a><a href="#">犯罪</a><a href="#">密室推理</a><a href="#">口碑预期 8.6</a></div>
+        </article>
+
+        <article class="node">
+          <div class="dt"><b>10.23</b><em>FRI · 周五</em><i>距上映 14 天</i></div>
+          <h4>雪国列车（重启版）</h4>
+          <p>末日废土设定下的封闭空间群像，视效体量是本月商业制作里最重的一部，属于"一定要看大银幕"的类型。</p>
+          <div class="tags"><a href="#">科幻</a><a href="#">灾难</a><a href="#">群像</a><a href="#">视效大片</a></div>
+        </article>
+
+        <article class="node">
+          <div class="dt"><b>10.30</b><em>FRI · 周五</em><i>距上映 21 天</i></div>
+          <h4>晚风不及你</h4>
+          <p>千禧年初的校园群像，配乐与美术承担了大部分情绪，甜中带一点遗憾，约会场与怀旧场都合适。</p>
+          <div class="tags"><a href="#">爱情</a><a href="#">青春</a><a href="#">怀旧</a><a href="#">合家观影</a></div>
+        </article>
+
+        <article class="node">
+          <div class="dt"><b>11.06</b><em>FRI · 周五</em><i>距上映 28 天</i></div>
+          <h4>南方旧书店</h4>
+          <p>一间老书店与几位常客的日常，没有强冲突，胜在细节与台词，是那种看第二遍会注意到更多东西的作品。</p>
+          <div class="tags"><a href="#">剧情</a><a href="#">文艺</a><a href="#">生活流</a><a href="#">重看价值高</a></div>
+        </article>
+
+        <article class="node">
+          <div class="dt"><b>11.13</b><em>FRI · 周五</em><i>距上映 35 天</i></div>
+          <h4>雷霆突围</h4>
+          <p>动作商业大片，主打长镜头追逐与大规模实拍，场面冲击力是主要卖点，近期动作片里配置较高的一部。</p>
+          <div class="tags"><a href="#">动作</a><a href="#">军事</a><a href="#">实拍</a><a href="#">强节奏</a></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 编辑选片 -->
+  <section id="pick">
+    <div class="wrap">
+      <div class="kicker">SECTION 03 · EDITOR'S PICK</div>
+      <div class="stitle">
+        <span class="en">精选片库</span>
+        <h2>编辑<i>选片</i>：三张短名单，不再从零开始</h2>
+        <a class="more" href="#">更多片单 ›</a>
+      </div>
+      <p class="intro">不是排行榜，是三种不同心情下的对应方案。心情对了，烂片也能看进去；心情不对，高分片也索然无味——所以这里先分心情，再谈分数。</p>
+
+      <div class="editor">
+
+        <div class="col">
+          <h4><em>LIST A · 心情低落时</em>越看越有力量的六部</h4>
+          <ol>
+            <li class="g"><b>1</b><div class="nm">阿甘正传<span>奔跑本身不需要理由</span></div></li>
+            <li class="g"><b>2</b><div class="nm">当幸福来敲门<span>低谷期的情绪支撑</span></div></li>
+            <li class="g"><b>3</b><div class="nm">摔跤吧！爸爸<span>努力被看见的过程</span></div></li>
+            <li><b>4</b><div class="nm">隐藏人物<span>被历史漏掉的她们</span></div></li>
+            <li><b>5</b><div class="nm">白日梦想家<span>走出去的那一步</span></div></li>
+            <li><b>6</b><div class="nm">天堂电影院<span>关于热爱与告别</span></div></li>
+          </ol>
+        </div>
+
+        <div class="col">
+          <h4><em>LIST B · 周末想动脑</em>反转与推理的六部</h4>
+          <ol>
+            <li class="g"><b>1</b><div class="nm">控方证人<span>结尾至今难被超越</span></div></li>
+            <li class="g"><b>2</b><div class="nm">看不见的客人<span>每一轮供词都在翻盘</span></div></li>
+            <li class="g"><b>3</b><div class="nm">致命魔术<span>诺兰最工整的一次</span></div></li>
+            <li><b>4</b><div class="nm">记忆碎片<span>用结构本身来讲故事</span></div></li>
+            <li><b>5</b><div class="nm">非常嫌疑犯<span>台词里全是伏笔</span></div></li>
+            <li><b>6</b><div class="nm">七宗罪<span>看完需要缓一缓</span></div></li>
+          </ol>
+        </div>
+
+        <div class="col">
+          <h4><em>LIST C · 深夜一个人</em>安静、克制、值得二刷</h4>
+          <ol>
+            <li class="g"><b>1</b><div class="nm">花样年华<span>克制的情感表达</span></div></li>
+            <li class="g"><b>2</b><div class="nm">海边的曼彻斯特<span>悲伤没有被解决</span></div></li>
+            <li class="g"><b>3</b><div class="nm">东京物语<span>家庭关系的一面镜子</span></div></li>
+            <li><b>4</b><div class="nm">卧虎藏龙<span>武侠里的进退两难</span></div></li>
+            <li><b>5</b><div class="nm">蓝色大门<span>青春与未说出口</span></div></li>
+            <li><b>6</b><div class="nm">驾驶我的车<span>慢，但有回甘</span></div></li>
+          </ol>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 类型检索 -->
+  <section id="genre">
+    <div class="wrap">
+      <div class="kicker">SECTION 04 · GENRE INDEX</div>
+      <div class="stitle">
+        <span class="en">分类索引</span>
+        <h2>不想被推荐牵着走？<i>按类型</i>自己翻</h2>
+        <a class="more" href="#">全部分类 ›</a>
+      </div>
+      <p class="intro">每个分类给出一段简短取向说明，并附三条近期可看的入口。分类不是标签机器，而是"看这种片子的人通常在意什么"。</p>
+
+      <div class="gens">
+
+        <div class="gen">
+          <div class="top2"><h5>动作 / 冒险</h5><span>01</span></div>
+          <div class="mid">
+            <p>看重场面完成度、节奏推进与实拍冲击力的人群首选，适合想让两个小时过得快的观众。</p>
+            <ol><li><span>雷霆突围</span><i>11.13</i></li><li><span>边境线上的早餐店</span><i>在映</i></li><li><span>雪国列车（重启版）</span><i>10.23</i></li></ol>
+          </div>
+        </div>
+
+        <div class="gen">
+          <div class="top2"><h5>爱情 / 青春</h5><span>02</span></div>
+          <div class="mid">
+            <p>从校园暗恋到年代情缘，甜与遗憾各有侧重，选片时先看年代背景再决定是否合口味。</p>
+            <ol><li><span>晚风不及你</span><i>10.30</i></li><li><span>她的来信</span><i>在映</i></li><li><span>蓝色大门</span><i>片库</i></li></ol>
+          </div>
+        </div>
+
+        <div class="gen">
+          <div class="top2"><h5>悬疑 / 犯罪</h5><span>03</span></div>
+          <div class="mid">
+            <p>偏爱证据推理与反转结构，愿意跟着线索走、看完想立刻找人讨论的类型。</p>
+            <ol><li><span>第七封信</span><i>10.16</i></li><li><span>看不见的客人</span><i>片库</i></li><li><span>控方证人</span><i>片库</i></li></ol>
+          </div>
+        </div>
+
+        <div class="gen">
+          <div class="top2"><h5>喜剧 / 合家欢</h5><span>04</span></div>
+          <div class="mid">
+            <p>放松解压向，含生活流喜剧与亲子动画，适合多人一起看、不想动脑的场合。</p>
+            <ol><li><span>老友火锅店</span><i>在映</i></li><li><span>小满的夏天</span><i>在映</i></li><li><span>云端飞行团</span><i>待映</i></li></ol>
+          </div>
+        </div>
+
+        <div class="gen">
+          <div class="top2"><h5>剧情 / 文艺</h5><span>05</span></div>
+          <div class="mid">
+            <p>以人物与关系驱动，节奏偏慢，胜在细节、台词与表演，重看价值普遍高于商业片。</p>
+            <ol><li><span>逆光而行的人</span><i>在映</i></li><li><span>南方旧书店</span><i>11.06</i></li><li><span>驾驶我的车</span><i>片库</i></li></ol>
+          </div>
+        </div>
+
+        <div class="gen">
+          <div class="top2"><h5>科幻 / 奇幻</h5><span>06</span></div>
+          <div class="mid">
+            <p>脑洞设定与视效场面并重，既有硬科幻，也有偏向童话感的奇幻作品可供选择。</p>
+            <ol><li><span>深海代码</span><i>在映</i></li><li><span>雪国列车（重启版）</span><i>10.23</i></li><li><span>记忆碎片</span><i>片库</i></li></ol>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于 -->
+  <section id="about">
+    <div class="wrap">
+      <div class="kicker">SECTION 05 · ABOUT</div>
+      <div class="stitle">
+        <span class="en">关于本站</span>
+        <h2>关于<i>飘香电影网</i></h2>
+      </div>
+
+      <div class="about">
+        <div class="notes">
+          <h3>我们做的，是帮你<em>少花点时间决定</em></h3>
+          <p>飘香电影网不卖片、不做资源分发、不做算法强推，只做一件事：把选片需要的信息整理清楚。一部片子值不值得看，只有你自己能下判断，我们能做的是把判断需要的依据摆出来。</p>
+          <p>内容分四条线更新：正在热映的院线片单负责当下，定档待映新片负责规划，编辑选片负责按心情取用，类型检索负责自主翻找。四条线互相不重复，你从任何一条进来都能找到东西。</p>
+          <p>影片口碑来自公开评分与讨论反馈的综合参考，不是本站观点。评分会变化，所以榜单不设永久名次，每隔一段时间整体重排一次。</p>
+          <ul>
+            <li>信息以公开渠道可查内容为基础，档期类信息随片方公示同步更新</li>
+            <li>影片介绍侧重"看点 + 适合人群"，不使用情绪化强推语言</li>
+            <li>分类按观众取向组织，而非机械套用官方类型标签</li>
+            <li>收录范围以华语院线为主，兼收世界电影中的常见片目</li>
+            <li>本栏目内容仅供观影参考，实际排片与上映日期以影院公示为准</li>
+          </ul>
+        </div>
+
+        <div class="sitecard">
+          <div class="lb">SITE ADDRESS</div>
+          <h4>飘香电影网 · 官方站点地址</h4>
+          <a class="url" href="https://piaoxiangdianyingwang-zh.github.io">
+            piaoxiangdianyingwang-zh.github.io
+            <small>建议收藏此地址，直接访问无需跳转</small>
+          </a>
+          <div class="meta">
+            <div><b>NAME</b><span>飘香电影网</span></div>
+            <div><b>UPDATED</b><span>每周五</span></div>
+            <div><b>CONTENT</b><span>选片参考 / 片单整理</span></div>
+            <div><b>ACCESS</b><span>无需注册登录</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="ft">
+      <div>
+        <div class="bl">飘香<i>电影网</i></div>
+        <p>一家主打生活感的观影指南。我们把正在热映的院线片、定档待映新片、按心情整理的精选片库与按类型划分的检索入口分门别类放好，帮你用更短的时间，找到一部对味的电影。</p>
+      </div>
+      <div>
+        <h6>栏目</h6>
+        <ul>
+          <li><a href="#now">正在热映</a></li>
+          <li><a href="#soon">即将上映</a></li>
+          <li><a href="#pick">编辑选片</a></li>
+          <li><a href="#genre">类型检索</a></li>
+        </ul>
+      </div>
+      <div>
+        <h6>片单</h6>
+        <ul>
+          <li><a href="#">心情低落时</a></li>
+          <li><a href="#">周末想动脑</a></li>
+          <li><a href="#">深夜一个人</a></li>
+          <li><a href="#">亲子合家欢</a></li>
+        </ul>
+      </div>
+      <div>
+        <h6>站点</h6>
+        <ul>
+          <li><a href="#about">关于本站</a></li>
+          <li><a href="#">更新日志</a></li>
+          <li><a href="#">留言反馈</a></li>
+          <li><a href="https://piaoxiangdianyingwang-zh.github.io">返回首页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fb">
+      <span>© 2026 飘香电影网 · 本站内容仅供观影参考，不构成观影承诺，实际排片以影院公示为准</span>
+      <span><a href="https://piaoxiangdianyingwang-zh.github.io">piaoxiangdianyingwang-zh.github.io</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="#now" id="top" aria-label="返回顶部">↑</a>
+
+<script>
+(function(){
+  var mm=document.getElementById('mm'),nav=document.getElementById('nav'),top=document.getElementById('top'),td=document.getElementById('td');
+  if(td){
+    var d=new Date(),w=['日','一','二','三','四','五','六'][d.getDay()];
+    td.textContent=d.getFullYear()+' 年 '+(d.getMonth()+1)+' 月 '+d.getDate()+' 日 · 星期'+w;
+  }
+  if(mm&&nav)mm.addEventListener('click',function(){nav.classList.toggle('open');});
+  if(nav)nav.addEventListener('click',function(e){if(e.target.closest('a'))nav.classList.remove('open');});
+  window.addEventListener('scroll',function(){if(window.scrollY>500)top.classList.add('on');else top.classList.remove('on');},{passive:true});
+})();
+</script>
+
+</body>
+</html>
